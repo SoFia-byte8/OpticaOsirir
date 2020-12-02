@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(../imagenes/Fondo14.png) no-repeat center top;
+    background-size: cover;
+    font-family: georgia;
+    height: 90vh;
+}
+header{
+    width: 100%;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .3);
+}
+header h1{
+    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+header a{
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    transition: all ease 300ms;
+    font-family: 'Dancing Script', cursive;
+}
+header a:hover{
+    color: #fff(180, 210, 212);
+
+
+}
+/*---------------------------header--------------------------------*/
+
+.login-sokabu{
+    width: 320px;
+    height: 420px;
+    background-color:rgba(82, 79, 79, 0.534);
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 5px;
+}
+.login-sokabu .icono{
+    width: 90px;
+    height: 90px;
+    border-radius:40%;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 50px);
+}
+.login-sokabu h1{
+    margin: 0%;
+    padding: 0 0 24px;
+    font-size: 1.8em;
+    text-align: center;
+
+}
+
+.login-sokabu label{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    display: block;
+    font-family: cursive;
+ }
+ .login-sokabu input{
+     width: 100%;
+     margin-bottom: 20px;
+ }
+ .login-sokabu input[type="text"],
+ .login-sokabu input[type="password"]
+  { 
+     border:none;
+     border-bottom: 3px solid black;
+     background: rgba(255, 255, 255, 0.432);
+     outline:none;
+     height: 40px;
+     color:black;
+     font-size: 15px;
+}
+
+.login-sokabu input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-sokabu a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 16px;
+    color:black;
+}
+.login-sokabu a:hover{ 
+    color:black;
+    font-size: 1.1em;
+}
+
+/*--------------------------Contenido----------------------------*/

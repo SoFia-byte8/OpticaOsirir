@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" type="imagenes/jpg" href="../imagenes/loool.jpg">
+	<link rel="styleheet" href="../Css/view.css">
+	<title>Óptica Ósiris</title>
+	<style>
+		* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.articulo {
+    margin: 40px;
+    padding: 35px;
+     background: rgba(49, 49, 49, 0.527);
+}
+
+.bg-blue{
+    background-color: rgba(49, 49, 49, 0.527);
+    color: #ffffff;
+}
+.height-carousel {
+    max-height: 600px;
+    min-width: 100%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.group-color {
+    background: #00000073;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.group--color .containers {
+    background: #38383af1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.margin__title {
+    margin: 15px;
+    font-size: 1.8em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+}
+
+.main__txt {
+    padding: 8px;
+    text-align: center;
+}
+
+.btn-primary {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: linear-gradient(180deg, #32c953d5 0%, #46c7d8c4 100%);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-lg {
+    text-align: right;
+    justify-content: center;
+}
+
+
+a.ejemplo1 {
+    background: linear-gradient(180deg, #32c953 0%, #46c7d8 100%);
+    color: black;
+}
+
+.container-footer {
+    width: 100%;
+    background: #1F1E1E;
+    padding: 10px;
+}
+
+.main__about__description {
+    flex-wrap: wrap;
+}
+
+.footer {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: white;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: white;
+}
+
+.information {
+    text-align: right;
+}
+
+.information a {
+    text-decoration: none;
+    color: white;
+}
+
+/* modificaciones geraldine */
+.bg-pink {
+    background-color: transparent;
+    transition: all 1.5s ease;
+    color: white;
+    font-weight: lighter;
+}
+
+.main {
+    background-color: #333366;
+    color: #ffffff;
+}
+
+.letracolor {
+    color: white;
+    font-weight: lighter;
+}
+
+.letracolor:hover {
+    color: white;
+    font-weight: lighter;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.texto-encima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    /* background: linear-gradient(to right, #0c082caa, #0d0b2c8d, #13133387); */
+    
+}
+
+.letras-slaide{
+    font-size: 40px;
+    color: #ffffff;
+}
+.letras-slaide-p {
+    font-size: 20px;
+}
+.btn-primarys {    
+    text-align: center;    
+    width: 220px;
+    border:2px solid #17c3d6c4 ;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition:all .5s ease;
+}
+.btn-primarys:hover {
+    color: #264a4ec1;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.483);
+    border-color: transparent;
+}
+.card-body{
+    text-align: center;
+}
+.color-div-diferente{
+    background-color:#3539399f ;
+    padding: 35px;
+    margin-top:-20px ;
+}
+.containers-center {
+    margin: 40px 100px 0px 100px;
+    text-align: center;
+}
+.nuestro-Grupo {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    color:  #333366;
+
+}
+.galeria-port {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.jumbotron{
+    margin-top: 5%;
+}
+</style>
+</head>
+<body>
+<!--Navegador de Optica- Home-->
+  <nav id="menu" class="navbar navbar-expand-lg fixed-top bg-pink">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="../Imagenes/lol.jpg" alt="" width="250px" height="80px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align: center;">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../Login/Nosotras.html">¿Quienes Somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor" href="#ofertas">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor " href="../Login/index.html">Iniciar Sesion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link letracolor" href="../Login/Inicio SesionR.html">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item height-carousel active">
+        <img src="../Imagenes/Programacion14.jpg" class="d-block w-100" alt="cod">
+        <div class="carousel-caption d-none d-md-block ">
+          <div class="texto-encima">
+            <h5 class="letras-slaide lg-dark"><b> Optica Osiris </b></h5></span>
+            <p class="letras-slaide-p"><b>Aqui encontraras El mejor Talento en Optica y Busqueda de Gafas</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item height-carousel">
+        <img src="../Imagenes/Glases1.jpg" class="d-block w-100" alt="off">
+        <div class="carousel-caption d-none d-md-block ">
+          <div class="texto-encima">
+            <h5 class="letras-slaide"> <b> Se Parte de Nosotros y registrate</b> </h5>
+            <a class="btn btn-primarys btn-lg" href="../Registrar_Usuario/registrarUsuario.html" role="button">
+              ¡Registrate! </a>
+          </div>
+        </div>
+      </div>
+       <div class="carousel-item height-carousel">
+        <img src="../Imagenes/Glases2.jpg" class="d-block w-100" alt="off">
+        <div class="carousel-caption d-none d-md-block ">
+          <div class="texto-encima">
+            <h5 class="letras-slaide"> <b>Cuida De tu Ojos</b> </h5>
+            <p class="letras-slaide-p "><b>En esta Plataforma enfontraras Tips Para el Cuidado de Tu Visión</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--Imagen con Ondulación-->
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+          style="stroke: none; fill: #ffffff;"></path>
+      </svg></div>
+  </div>
+  <!--Cards-->
+<h1 class="text-center mb-5 border-bottom border-success"></h1>
+  <div class="jumbotron">
+    <div class="containers">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="../Imagenes/Fondo11.png" alt="Comp" width="260" height="195">
+        </div>
+        <div class="col-sm-7">
+          <h1> Expertos En La Industria</h1>
+          <p class="lead">Tenemos Especialistas al Cuidado de Tus Ojos, e intervenimos para el cuidado de tu Visión, Realizamos Gafas y Agendamiento de Citas Medicas para Mejor Efectividad de tus Ojos.</p>
+          <hr class="my-4">
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+  <!--Articulos con un Card-->
+  <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">¿Quieres Ser Parte de Nuestro Equipo?</h5>
+                  <p class="card-text">Encuentralos Aquí!</p>
+                  <a href="#" class="btn btn-primary">IR</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">¿Deseseas Registrarte, para Más Contenido e Información ?</h5>
+                  <p class="card-text">Selecciona el boton Ir y te Redirigiremos.</p>
+                  <a href="../Login/Inicio SesionR.html" class="btn btn-primary">IR</a>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+<section>
+<a href="" name="ofertas"></a>
+<h3 style="text-align: center;">Descubre las mejores ofertas!</h3>
+        <div class="galeria-port mt-5 mb-5">
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/cofGjpg.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripcion</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Fondo12.png" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripción </p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Fondo7.0.png" class="card-img-top" alt="..."  height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripción</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>      
+        </div>
+        <div class="galeria-port mb-5">
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Fondo5.0.png" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripción</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Fondo21.png"class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripción</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Gafas0.0.png" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripción</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="galeria-port mb-5">
+            <div class="col-sm-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Gafas0.1.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS</h2>
+                        <p class="card-text">Descripcion de la oferta laboral</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Gafas0.2.png" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS </h2>
+                        <p class="card-text">Descripcion de la oferta laboral </p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../Imagenes/Gafas0.3.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                        <h2 class="card-text">OFERTAS DE GAFAS</h2>
+                        <p class="card-text">Descripcion de la oferta</p>
+                     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ver mas</a>
+                    </div>
+                </div>
+            </div>                
+        </div>
+        </div>
+</section>
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="exampleModalLabel">Gafas(Marco Negro)</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body backgoud">
+              <!-- grid -->
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="../Imagenes/Glasses3.jpg" alt="empresa" width="100%" height="auto" style="border-radius: 10px;">
+    
+                  </div>
+                  <div class="col-sm-8 mt-2">
+                      <h5>Gafas para Hombre y Mujer</h5>
+                      <p>Ubicacion </p>
+                      <p>Precios $15.000 </p>
+                    <li>Monturas fabricadas en acero, en su diseño presenta detalles de pedrería en las esquinas de la parte superior del marco. 3 meses de garantía.</li>
+                    <li>Talla	Angostas</li>
+						<li>Material	Metal</li>
+						<li>Peso	16g</li>
+						<li>Forma	Ovalada</li>
+						<li>Agarre del lente	Completo</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Oferta</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Precio</button>
+    
+            </div>
+          </div>
+        </div>
+      </div> 
+  <!--Footer/ Pie de Pagina-->
+<footer>
+    <div class="container-footer">
+<div class="container-fluid">
+<div class="row">
+ Optica Osiris --  Optica Osiris --  Optica Osiris --  Optica Osiris --  Optica Osiris --  Optica Osiris --  Optica Osiris --  Optica Osiris -- Optica Osiris --  Optica Osiris --  Optica Osiris -- Optica Osiris 
+</div>
+<h5 style="color:white;">Siguenos También Por : </h5>
+<ul class="redes-sociales flex flex-row justify-between align-center">
+<li>
+<a href="https://www.facebook.com/%C3%93pticas-Osiris-Torres-266868784059388/?ref=page_internal" rel="nofollow" target="_blank" class="flex flex-row justify-center align-center">
+<i class="fa fa-facebook" aria-hidden="true"></i>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/masmovil" rel="nofollow" target="_blank" class="flex flex-row justify-center align-center">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/optica_osiris_torres/" rel="nofollow" target="_blank" class="flex flex-row justify-center align-center">
+<i class="fa fa-instagram" aria-hidden="true"></i>
+</a>
+</li>
+</ul>
+<div class=" container information">
+<ul>
+<a href="#">Curiosidades</a><br>
+<a href="#">Fotografia</a><br>
+<a href="#">Sorteos y Concursos</a><br>
+<a href="#">Tarifas</a>
+</ul>
+</div>
+</div>
+<div class="copyright">
+        DATOS &copy 2020 | <a href="InicioAll.html">Optica Osiris</a>
+</div>
+      <div class="information">
+        <a href="#"> Información Compañia </a> |
+        <a href="#"> Privacidad y Politica </a> |
+        <a href="#"> Terminos y Condiciones </a> |
+      </div>
+</div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/437f265f51.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Registrar Agenda</title>
+      <link rel="stylesheet" href="../Css/Crud-3.css">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+     <link rel="icon" type="imagenes/jpg" href="../Imagenes/loool.jpg">  
+      
+  </head>
+<body style="background-color: #f7f7f7;">
+
+<header class="body-header">
+    <nav class="main-nav ml-auto">
+        <div class="container ">
+
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="./Inicio.html" class="menu__link menu__link--select">Inicio</a></li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="" target="_blank" class="menu__link">Quienes Somos</a></li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="#primero" class="menu__link" >Ofertas</a></li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="" target="_blank" class="menu__link">Programar Cita Medica</a></li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="#primero" class="menu__link">Productos</a></li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="https://www.civico.com/lugar/optica-osiris-bogota/" target="_blank" class="menu__link">Ubicanos</a></li><li class="barra"> | </li>
+                <li class="menu__item"><a href="#segundo" class="menu__link">Contactanos</a></li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="#" class="menu__link">Gestión</a>
+                    <ul class="despleg">
+                        <li><a href="../Consultar/Consultar Usuario.html" class="des" target="_blank">Usuario</a></li>
+                        <li><a href="../Consultar/Consultar Paciente.html" class="des" target="_blank">Paciente</a></li>
+                        <li><a href="../Consultar/Consultar Medico.html" class="des" target="_blank">Medico</a></li>
+                        <li><a href="../Consultar/Consultar Agenda.html" class="des" target="_blank">Agenda</a></li>
+                        <li><a href="../ConsultasId/Consultar Id Historia Clinica.html" class="des" target="_blank">Historia Clinica</a></li>
+                        <li><a href="../Consultar/Consultar Examen.html" class="des" target="_blank">Examen</a></li>
+                        <li><a href="../Consultar/Consultar Consulta Medica.html" class="des" target="_blank">Consulta Medica</a></li>
+                        <li><a href="../Consultar/Consultar Diagnostico.html" class="des" target="_blank">Diagnóstico</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="barra"> | </li>
+                <li class="menu__item"><a href="../Login/index.html" class="menu__link">Salir</a></li>
+                <li class="barra"> | </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+        <h1></h1><br><br><br>
+         <a href=".."><i class="fas fa-arrow-left mt-2"></i></a>
+         <!--NO SE QUE PONER-->
+<center>
+   <h1>Registrar Agenda</h1><br><br>
+   <form>
+<div class="container">
+
+    <div class="form-group col-md-12">
+      <label for="idAgenda">ID Agenda</label>
+      <input type="text" class="form-control" id="idAgenda" placeholder="Ingrese ID agenda Correspondiente">  
+    </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+      <label for="inputAgenda">Estado Agenda Actual</label>
+      <select id="inputAgenda" class="form-control">
+        <option selected>ACTIVO</option >
+        <option>INACTIVO</option>
+      </select>
+    </div>
+     <div class="form-group col-md-6">
+      <label for="inputUsuario">Consultorio</label>
+      <select id="inputUsuario" class="form-control">
+        <option selected>000#a</option>
+                    <option value="2">102#a</option>
+                    <option value="3">103#a</option>
+                    <option value="4">104#a</option>
+                    <option value="5">105#a</option>
+                    <option value="6">201#c</option>
+                    <option value="7">202#c</option>
+                    <option value="8">203#c</option>
+      </select>
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="fechaMedica">Fecha Cita  Medica</label>
+      <input type="date" class="form-control" id="fechaMedica" placeholder="Ingrese su Correo Eléctronico">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="horaMedica">Hora Cita Medica</label>
+      <input type="time" class="form-control" id="horaMedica" placeholder="Ingrese su Correo Eléctronico">
+    </div>
+</div><br>
+  <button type="submit" class="btn btn-dark">Agendar</button>
+</div>
+    </form><br><br><br>
+</center>    
+<footer>
+    <div class="container-footer">
+            <div class="foter">
+                <div class="copyright">
+                    DATOS &copy 2020 | <a href="">Magtimus</a>
+                </div>
+            
+                <div class="information">
+                     <a href=""> Información Compañia </a> |
+                     <a href=""> Privacidad y Politica </a> |
+                     <a href=""> Terminos y Condiciones </a> |
+                </div>
+
+            </div>
+        </div>
+</footer>
+<script src="https://kit.fontawesome.com/437f265f51.js" crossorigin="anonymous"></script>
+</body>
+</html>
